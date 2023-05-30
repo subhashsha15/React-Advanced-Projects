@@ -1,0 +1,129 @@
+.Home-features {
+    background-color: #f1fdf7;
+    display: flex;
+    justify-content: center;
+    padding: 100px 120px;
+}
+
+.Home-container {
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.Home-features-right video {
+    width: 700px;
+}
+
+.Home-features-left {
+    flex: 2;
+}
+
+.Home-features-left h1 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.Home-features-right {
+    flex: 3;
+}
+
+.Home-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Home-item p {
+    font-size: 18px;
+    color: gray;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: -8px;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+.Home-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: gray;
+}
+
+.Home-title img {
+    width: 24px;
+    height: 24px;
+}
+
+.dark {
+    background-color: #0d084d;
+    color: white;
+}
+
+.dark-Home-container {
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.Home-features-right img {
+    width: 713px;
+    height: 455px;
+}
+
+.dark-Home-features-left h1 {
+    font-weight: 600;
+    padding-bottom: 32px;
+    font-size: 32px;
+    font-family: Macan, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.dark-Home-features-left h1 i {
+    font-weight: 600;
+    font-family: auto;
+    letter-spacing: 1px;
+}
+
+.dark-Home-features-left h1 span {
+    font-weight: 300;
+    font-family: "Roboto";
+}
+
+.dark-Home-features-left p {
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-bottom: 32px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.dark-Home-features-left .Home-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-family: "Roboto";
+}
+
+.dark-Home-features-left button {
+    background-color: #1dbf73;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    width: max-content;
+}

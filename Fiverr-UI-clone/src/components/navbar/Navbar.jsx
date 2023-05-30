@@ -6,12 +6,24 @@ const Navbar = () => {
     const [active, setActive] = useState(false);
     const [show, setShow] = useState(false);
     const { pathname } = useLocation();
+    const [showMenu, setShowMenu] = useState(false);
+    const isShowMenu = () => {
+        window.scrollY > 100 ? setShowMenu(true) : setShowMenu(false);
+    }
     const isActive = () => {
         window.scrollY > 0 ? setActive(true) : setActive(false);
     }
 
     useEffect(() => {
-        window.addEventListener('scroll', isActive);
+        window.addEventListener('scroll', isShowMenu,);
+
+        return (() => {
+            window.removeEventListener('scroll', isShowMenu);
+        })
+    }, []);
+
+    useEffect(() => {
+        window.addEventListener('scroll', isActive,);
 
         return (() => {
             window.removeEventListener('scroll', isActive);
@@ -61,7 +73,7 @@ const Navbar = () => {
                     </>)}
                 </div>
             </div>
-            {(active || pathname !== "/") && (
+            {(showMenu || pathname !== "/") && (
                 <>
                     <hr />
                     <div className="menu">

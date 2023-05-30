@@ -3,7 +3,7 @@ import "./CatCard.css"
 import { Link } from "react-router-dom";
 const CatCard = ({ item }) => {
     return (
-        <Link to="/gig?cat=design">
+        <Link to="/gig?cat=design" className="Link">
             <div className="catcard">
                 <img src={item.img} alt="" />
                 <span className="desc">{item.desc}</span>
