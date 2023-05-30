@@ -1,19 +1,99 @@
 import React from "react";
 import "./Footer.css"
 
-const Footer=()=>{
-    return(
-        <div className="footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis omnis, alias tempora pariatur voluptas possimus. Aperiam inventore necessitatibus, eveniet laboriosam dolores sapiente nihil. Commodi, impedit error doloremque laborum sequi quos.
-        Suscipit totam libero voluptates porro quidem explicabo. Autem ad quaerat aut tenetur atque ratione minus natus accusamus porro unde, cupiditate laborum dicta non sunt, omnis quod, corporis asperiores sint fugit!
-        Cumque commodi ratione maiores, voluptatum minima architecto odit temporibus perspiciatis nam, deleniti vitae earum a. Doloremque vel voluptatem delectus, rem, corrupti dolorum alias accusantium, et eos quo consequatur labore asperiores?
-        Velit cupiditate beatae eius deleniti eaque voluptas nesciunt dolore adipisci delectus ullam cumque deserunt laborum, alias voluptates laboriosam facilis aperiam magni totam id ea? Natus temporibus sit aliquam sapiente odit?
-        Dolor sequi dolores provident? Dolor illum adipisci delectus eveniet obcaecati, optio facilis ea beatae consequuntur ad recusandae quisquam ipsum perspiciatis reprehenderit voluptates laudantium libero incidunt quasi blanditiis eaque reiciendis magni!
-        Officia enim veniam obcaecati quos. Deserunt dolor possimus quasi pariatur commodi nesciunt! Perferendis unde autem aperiam nihil, voluptatum voluptas ullam cumque modi consectetur ducimus facilis ut molestiae harum odio esse.
-        Facilis eaque aut aspernatur quod distinctio et rerum quas cum, assumenda voluptatibus veritatis. Eligendi maxime vero nostrum suscipit nobis praesentium dicta. Maxime aliquid ex porro debitis impedit, quam voluptas dolore.
-        Voluptatibus, consectetur corporis eaque eum quisquam minima distinctio, qui ducimus reiciendis ipsum velit esse optio atque earum tenetur omnis tempore ut praesentium aliquid repellendus ex iusto numquam rem? Quis, assumenda!
-        Tenetur exercitationem consequatur quos ullam. Nisi, quaerat reprehenderit fuga placeat quam exercitationem harum magnam odit dolor aut, ex eum sapiente cum eveniet ad fugit at sint quae modi, soluta consectetur!
-        Explicabo consequuntur illo ut, minima natus officia incidunt, aut accusantium molestiae ab rerum itaque quod! Ex, beatae architecto explicabo itaque perspiciatis aliquid pariatur corporis nam animi delectus? Unde, quos maxime!</div>
+const Footer = () => {
+    return (
+        <div className="footer">
+            <div className="footer-container">
+            <hr />
+                <div className="footer-container-top">
+                    <div className="footer-container-top-item">
+                        <h2>Categories</h2>
+                        <span>Graphics & Design</span>
+                        <span>Digital Marketing</span>
+                        <span>Writing & Translation</span>
+                        <span>Video & Animation</span>
+                        <span>Music & Audio</span>
+                        <span>Programming & Tech</span>
+                        <span>Data</span>
+                        <span>Business</span>
+                        <span>Lifestyle</span>
+                        <span>Photography</span>
+                        <span>Sitemap</span>
+                    </div>
+                    <div className="footer-container-top-item">
+                        <h2>About</h2>
+                        <span>Press & News</span>
+                        <span>Partnerships</span>
+                        <span>Privacy Policy</span>
+                        <span>Terms of Service</span>
+                        <span>Intellectual Property Claims</span>
+                        <span>Investor Relations</span>
+                        <span>Contact Sales</span>
+                    </div>
+                    <div className="footer-container-top-item">
+                        <h2>Support</h2>
+                        <span>Help & Support</span>
+                        <span>Trust & Safety</span>
+                        <span>Selling on Liverr</span>
+                        <span>Buying on Liverr</span>
+                    </div>
+                    <div className="footer-container-top-item">
+                        <h2>Community</h2>
+                        <span>Customer Success Stories</span>
+                        <span>Community hub</span>
+                        <span>Forum</span>
+                        <span>Events</span>
+                        <span>Blog</span>
+                        <span>Influencers</span>
+                        <span>Affiliates</span>
+                        <span>Podcast</span>
+                        <span>Invite a Friend</span>
+                        <span>Become a Seller</span>
+                        <span>Community Standards</span>
+                    </div>
+                    <div className="footer-container-top-item">
+                        <h2>More From Fiverr</h2>
+                        <span>Liverr Business</span>
+                        <span>Liverr Pro</span>
+                        <span>Liverr Logo Maker</span>
+                        <span>Liverr Guides</span>
+                        <span>Get Inspired</span>
+                        <span>Liverr Select</span>
+                        <span>ClearVoice</span>
+                        <span>Liverr Workspace</span>
+                        <span>Learn</span>
+                        <span>Working Not Working</span>
+                    </div>
+                </div>
+                <hr />
+                <div className="footer-container-bottom">
+                    <div className="footer-container-bottom-left">
+                        <h2>fiverr<sub>&#174;</sub></h2>
+                        <span>© Fiverr International Ltd. 2023</span>
+                    </div>
+                    <div className="footer-container-bottom-right">
+                        <div className="footer-container-bottom-right-social">
+                            <img src="./img/twitter.png" alt="" />
+                            <img src="./img/facebook.png" alt="" />
+                            <img src="./img/linkedin.png" alt="" />
+                            <img src="./img/pinterest.png" alt="" />
+                            <img src="./img/instagram.png" alt="" />
+                        </div>
+                        <div className="footer-container-bottom-right-link">
+                            <img src="./img/language.png" alt="" />
+                            <span>English</span>
+                        </div>
+                        <div className="footer-container-bottom-right-link">
+                            <img src="./img/coin.png" alt="" />
+                            <span>USD</span>
+                        </div>
+                        <img src="./img/accessibility.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div >
     )
 }
 
-export  default Footer;
+export default Footer;

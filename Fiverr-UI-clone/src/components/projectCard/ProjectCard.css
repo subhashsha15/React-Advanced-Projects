@@ -1,0 +1,38 @@
+.projectcard {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.251);
+    box-shadow: 0px 0px 16px -6px rgba(0,0,0,0.59);
+}
+
+.projectcard img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.projectcard-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+}
+.projectcard-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.projectcard-texts h2 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #404145;
+}
+.projectcard-texts span {
+    font-weight: 500;
+    font-size: 14px;
+    color: gray;
+}
