@@ -61,7 +61,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="Home-features-right">
-                        <video src="./img/video.mp4" controls></video>
+                        <video src="/img/video.mp4" controls></video>
                     </div>
                 </div>
             </div>
