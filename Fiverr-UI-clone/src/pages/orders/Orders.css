@@ -1,0 +1,49 @@
+.orders {
+    display: flex;
+    justify-content: center;
+    color: #555;
+}
+
+.orders-container {
+    width: 1400px;
+    padding: 50px 0px;
+    margin: 0px auto;
+}
+
+.orders-container-title {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    height: 50px;
+}
+
+th {
+    text-align: left;
+}
+
+sup {
+    font-size: 12px;
+}
+
+.orders-container-image {
+    width: 50px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.orders-container-delete {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #1dbf730f;
+}
