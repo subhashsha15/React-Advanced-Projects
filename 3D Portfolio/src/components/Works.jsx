@@ -1,5 +1,5 @@
 import React from "react";
-import {Tilt} from "react-tilt";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -14,6 +14,7 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  hosted_link,
   source_code_link,
 }) => {
   return (
@@ -24,18 +25,25 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div
+          className='relative w-full h-[230px] cursor-pointer'
+          onClick={() => {
+            window.open(hosted_link, "_blank");
+          }}>
           <img
             src={image}
             alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
+            className='w-full  h-full object-fill rounded-2xl'
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={(e) =>{
+                e.stopPropagation();
+                 window.open(source_code_link, "_blank")
+                }}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img

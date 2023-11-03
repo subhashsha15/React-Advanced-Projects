@@ -33,6 +33,7 @@ import tripguide from "./tripguide.png";
 import portfolio from "./portfolio.png";
 import soundcloud from "./soundcloud.png";
 import HDportfolio from "./3Dportfolio.png";
+import fiverr from "./fiverr.png";
 
 export {
   logo,
@@ -66,4 +67,5 @@ export {
   portfolio,
   soundcloud,
   HDportfolio,
+  fiverr,
 };

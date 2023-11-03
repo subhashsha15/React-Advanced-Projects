@@ -18,8 +18,7 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
+    const { name, value } = e.target;
 
     setForm({
       ...form,
@@ -33,16 +32,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        `${import.meta.env.VITE_APP_EMAILJS_SERVICE_ID}`,
+        `${import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID}`,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Subhash",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "subhashsha15@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        `${import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY}`
       )
       .then(
         () => {
@@ -58,7 +57,6 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-
           alert("Ahh, something went wrong. Please try again.");
         }
       );
