@@ -177,7 +177,7 @@ import {
         },
       ],
       image: HDportfolio,
-      hosted_link:"https://portfoliobuilder00.netlify.app",
+      hosted_link:"https://subhashkrportfolio.netlify.app",
       source_code_link: "https://github.com/subhashsha15/React-Advanced-Projects/tree/main/3D%20Portfolio",
     },
     {
