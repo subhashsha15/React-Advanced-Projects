@@ -31,7 +31,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import portfolio from "./portfolio.png";
+<<<<<<< HEAD
 import feedback from "./feedback-thumbnail.png";
+=======
+>>>>>>> 2ae68132847d6bdb64a80464043a1568087c9ba0
 import soundcloud from "./soundcloud.png";
 import HDportfolio from "./3Dportfolio.png";
 import fiverr from "./fiverr.png";
@@ -69,5 +72,8 @@ export {
   soundcloud,
   HDportfolio,
   fiverr,
+<<<<<<< HEAD
   feedback,
+=======
+>>>>>>> 2ae68132847d6bdb64a80464043a1568087c9ba0
 };
