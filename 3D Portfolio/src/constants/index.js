@@ -246,7 +246,7 @@ const projects = [
       {
         name: "axios",
         color: "purple-text-gradient",
-      },
+      }, 
     ],
     image: soundcloud,
     hosted_link: "https://soundcloud-clone0.netlify.app",
