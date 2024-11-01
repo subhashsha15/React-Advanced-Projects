@@ -38,13 +38,13 @@ const ProjectCard = ({
             className='w-full  h-full object-fill rounded-2xl'
           />
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          <div className='absolute inset-0 flex justify-end m-3 card-img_hover '>
             <div
               onClick={(e) =>{
                 e.stopPropagation();
                  window.open(source_code_link, "_blank")
                 }}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer blink-bg'
             >
               <img
                 src={github}
